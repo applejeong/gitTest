@@ -19,5 +19,9 @@
 	<p>reverse commit</p>
 
 </body>
-<script></script>
+<script>
+	$("p").click(function(){
+		$(this).css('color','red');
+	});
+</script>
 </html>
